@@ -9,6 +9,7 @@ import UseEffectHook from './components/hooks/useEffect';
 import Login from './components/hooks/useContex/login';
 import Register from './components/hooks/useContex/register';
 import ContextHook from './components/hooks/useContex/usecontext';
+import UseMemoHook from './components/hooks/useMemo/useMemo';
 function App() {
  const [data, setData] = useState("");
   return (
@@ -23,6 +24,7 @@ function App() {
         <Login/>
         <Register/>
         </div>
+        <UseMemoHook/>
     </div>
   )
 }
